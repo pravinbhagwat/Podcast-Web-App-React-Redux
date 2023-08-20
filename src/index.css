@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+  --theme: #20062e;
+  --blue: #18b2de;
+  --white: #fff;
+  --grey: #d7d7d7;
+  --purple-grey: #8f8297; 
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--theme);
+  color: var(--white);
+
+}
+
+input{
+  font-family: 'Inter', sans-serif;
+}
+
+.input-wrapper{
+  width: 80%;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.input-wrapper h1{
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.input-wrapper p{
+  margin-top: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+}
+
+.podcast-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner-wrapper{
+  background: linear-gradient(
+      177.7deg,
+      rgba(58, 129, 191, 0.3) 1.63%,
+      rgba(65, 48, 90, 0.009) 148.18%
+  );
+  border-radius: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  height: 300px;
+}
+.podcast-title-heading{
+  text-align: left !important;
+  width: 100%;
+}
+.banner-wrapper img{
+  width: 100%;
+  border-radius: 1rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.podcast-description{
+  color : var(--purple-grey);
+  text-align: left !important;
+  width: 100%;
+}
+
+
+.profile-h1 h1{
+  margin: 15px 0;
+}
